@@ -1,0 +1,2 @@
+# text-mining-ballad-lyrics-analyzer
+Use `scrapy`, `pandas` and `gensim` to analyze the lyrics of thousands of Chinese ballads. Use statistical features and word2vec to analyze the lyrics. The results and part of the key processes are wrote in jupyter notebook. Visual results contain the distribution of mentioned cities in lyrics, the seasons with the top hit. Also, word2vec model is derived to compute the similarity of two singers and hence can be used for recommendation.
