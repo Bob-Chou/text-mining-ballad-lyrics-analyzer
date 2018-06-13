@@ -12,7 +12,15 @@ All the lyrics are in **CHINESE** and hence the final jupyter notebook is writen
 ```shell
 pip3 install jieba scrapy matplotlib gensim pandas
 ```
-
+Unzip the dataset and the statistic data
+```shell
+# unzip the lyrics dataset
+unzip -n songs.zip -d songs
+rm songs.zip
+# unzip the statistic data
+unzip -n statistic.zip -d statistic
+rm statistic.zip
+```
 ## Jupyter Notebook
 You can run `jupyter notebook` directly to view the corresponding analysis if you have installed `jupyter notebook` in your environment. Also, you can browse the converted `notebook.html` if you cannot run `jupyter`. However, all the contents are static in `notebook.html`.
 ```shell
